@@ -11,6 +11,7 @@ class NewsController extends Controller
 {
     public function index(Request $request)
     {
+        //dd($request);
         $posts = News::all()->sortByDesc('updated_at');
 
         if (count($posts) > 0) {

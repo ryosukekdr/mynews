@@ -1014,10 +1014,9 @@ eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extr
 /*!*************************************!*\
   !*** ./resources/sass/profile.scss ***!
   \*************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+/***/ (() => {
 
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9yZXNvdXJjZXMvc2Fzcy9wcm9maWxlLnNjc3MiLCJtYXBwaW5ncyI6IjtBQUFBIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vLy4vcmVzb3VyY2VzL3Nhc3MvcHJvZmlsZS5zY3NzPzk0NWQiXSwic291cmNlc0NvbnRlbnQiOlsiLy8gZXh0cmFjdGVkIGJ5IG1pbmktY3NzLWV4dHJhY3QtcGx1Z2luXG5leHBvcnQge307Il0sIm5hbWVzIjpbXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./resources/sass/profile.scss\n");
+throw new Error("Module build failed (from ./node_modules/mini-css-extract-plugin/dist/loader.js):\nModuleBuildError: Module build failed (from ./node_modules/css-loader/dist/cjs.js):\nError: Can't resolve './sass/aaa.jpg' in '/home/ec2-user/environment/mynews/resources/sass'\n    at finishWithoutResolve (/home/ec2-user/environment/mynews/node_modules/enhanced-resolve/lib/Resolver.js:369:18)\n    at /home/ec2-user/environment/mynews/node_modules/enhanced-resolve/lib/Resolver.js:461:15\n    at /home/ec2-user/environment/mynews/node_modules/enhanced-resolve/lib/Resolver.js:519:5\n    at eval (eval at create (/home/ec2-user/environment/mynews/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:16:1)\n    at /home/ec2-user/environment/mynews/node_modules/enhanced-resolve/lib/Resolver.js:519:5\n    at eval (eval at create (/home/ec2-user/environment/mynews/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:27:1)\n    at /home/ec2-user/environment/mynews/node_modules/enhanced-resolve/lib/DescriptionFilePlugin.js:89:43\n    at /home/ec2-user/environment/mynews/node_modules/enhanced-resolve/lib/Resolver.js:519:5\n    at eval (eval at create (/home/ec2-user/environment/mynews/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:15:1)\n    at /home/ec2-user/environment/mynews/node_modules/enhanced-resolve/lib/Resolver.js:519:5\n    at processResult (/home/ec2-user/environment/mynews/node_modules/webpack/lib/NormalModule.js:764:19)\n    at /home/ec2-user/environment/mynews/node_modules/webpack/lib/NormalModule.js:866:5\n    at /home/ec2-user/environment/mynews/node_modules/loader-runner/lib/LoaderRunner.js:400:11\n    at /home/ec2-user/environment/mynews/node_modules/loader-runner/lib/LoaderRunner.js:252:18\n    at context.callback (/home/ec2-user/environment/mynews/node_modules/loader-runner/lib/LoaderRunner.js:124:13)\n    at Object.loader (/home/ec2-user/environment/mynews/node_modules/css-loader/dist/index.js:155:5)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)");
 
 /***/ }),
 
@@ -1155,7 +1154,6 @@ eval("// shim for using process in browser\nvar process = module.exports = {};\n
 /******/ 			"/js/app": 0,
 /******/ 			"css/app": 0,
 /******/ 			"css/front": 0,
-/******/ 			"css/profile": 0,
 /******/ 			"css/admin": 0
 /******/ 		};
 /******/ 		
@@ -1206,11 +1204,11 @@ eval("// shim for using process in browser\nvar process = module.exports = {};\n
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module depends on other loaded chunks and execution need to be delayed
-/******/ 	__webpack_require__.O(undefined, ["css/app","css/front","css/profile","css/admin"], () => (__webpack_require__("./resources/js/app.js")))
-/******/ 	__webpack_require__.O(undefined, ["css/app","css/front","css/profile","css/admin"], () => (__webpack_require__("./resources/sass/app.scss")))
-/******/ 	__webpack_require__.O(undefined, ["css/app","css/front","css/profile","css/admin"], () => (__webpack_require__("./resources/sass/admin.scss")))
-/******/ 	__webpack_require__.O(undefined, ["css/app","css/front","css/profile","css/admin"], () => (__webpack_require__("./resources/sass/profile.scss")))
-/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["css/app","css/front","css/profile","css/admin"], () => (__webpack_require__("./resources/sass/front.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/app","css/front","css/admin"], () => (__webpack_require__("./resources/js/app.js")))
+/******/ 	__webpack_require__.O(undefined, ["css/app","css/front","css/admin"], () => (__webpack_require__("./resources/sass/app.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/app","css/front","css/admin"], () => (__webpack_require__("./resources/sass/admin.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/app","css/front","css/admin"], () => (__webpack_require__("./resources/sass/profile.scss")))
+/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["css/app","css/front","css/admin"], () => (__webpack_require__("./resources/sass/front.scss")))
 /******/ 	__webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 /******/ 	
 /******/ })()
