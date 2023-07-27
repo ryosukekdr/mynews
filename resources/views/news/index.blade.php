@@ -21,7 +21,6 @@
                         </div>
                         <div class="col-md-6">
                             <p class="body mx-auto">{{ Str::limit($headline->body, 650) }}</p>
-                            <p>【PHP/Laravel】16 AWSへのデプロイ - 2</p>
                         </div>
                     </div>
                 </div>
